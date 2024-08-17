@@ -8,8 +8,6 @@ let loginDiv = document.querySelector(".login-box");
 let signLink = document.getElementById("sign-link");
 let loginLink = document.getElementById("login-link");
 let signUpDiv = document.querySelector(".signUp-box");
-
-const storage = getStorage(customApp);
 const storageRef = ref(storage);
 signUpForm.addEventListener("submit", function(e){
     e.preventDefault()
